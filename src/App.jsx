@@ -62,6 +62,7 @@ function App() {
   return (
     <>
       <div>
+        <i className='nes-ash'></i>
         <h1 className='nes-text title'>Pokemon Puzzle Game</h1>
         <h3 className='nes-text'>Moves: {moves}</h3>
         <progress className='nes-progress is-pattern' 
