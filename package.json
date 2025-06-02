@@ -9,6 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "scripts": {
+  "build": "vite build",
+  "predeploy": "yarn build",
+  "deploy": "gh-pages -d dist"
+}
   "dependencies": {
     "react": "^18.3.1",
     "react-confetti": "^6.1.0",
